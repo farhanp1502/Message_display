@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.container {
+  margin: 25vh;
+  height: 300px;
+  width: 400px;
+  flex-direction: column;
+  text-align: center;
+  border: solid 2px black;
+  background-color: rgba(41, 133, 194, 0.616);
+}
+
+.container form label {
+  text-transform: capitalize;
+}
+.container h1 {
+  text-transform: uppercase;
+}
+.container input {
+  border-radius: 15px;
+  border: none;
+}
+@media only screen and (max-width: 700px) {
+  .container {
+    height: 350px;
+  width: 250px;
+  }
+  .container form input{
+    width: 200px;
+  }
+}
